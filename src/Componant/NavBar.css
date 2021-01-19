@@ -1,0 +1,32 @@
+body {
+  font-family: "poppins";
+}
+nav {
+  background-color: #e3fafc;
+  justify-content: space-between;
+}
+nav ul {
+  float: right;
+}
+nav ul li {
+  margin: 0 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #3a3a3a;
+}
+.vl {
+  border-left: 2px solid black;
+  height: 40px;
+  line-height: 40px;
+}
+.btn {
+  background-color: #0bdcf3;
+  border: 2px solid #0bdcf3;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+@media (max-width: 800px) {
+  .vl {
+    display: none;
+  }
+}

@@ -1,0 +1,20 @@
+.contentFour p {
+  color: white;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  padding: 80px;
+}
+.contentFour h4 {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 80px;
+}
+.contentFour h4 strong {
+  font-size: 48px;
+  font-family: "Roboto slab";
+  color: #0bdcf3;
+  font-weight: bold;
+}
