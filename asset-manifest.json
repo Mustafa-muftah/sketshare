@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/sketshare/static/css/main.1b2f87da.chunk.css",
+    "main.js": "/sketshare/static/js/main.941df226.chunk.js",
+    "main.js.map": "/sketshare/static/js/main.941df226.chunk.js.map",
+    "runtime-main.js": "/sketshare/static/js/runtime-main.7d1d828b.js",
+    "runtime-main.js.map": "/sketshare/static/js/runtime-main.7d1d828b.js.map",
+    "static/css/2.58dcbf32.chunk.css": "/sketshare/static/css/2.58dcbf32.chunk.css",
+    "static/js/2.7da1398f.chunk.js": "/sketshare/static/js/2.7da1398f.chunk.js",
+    "static/js/2.7da1398f.chunk.js.map": "/sketshare/static/js/2.7da1398f.chunk.js.map",
+    "index.html": "/sketshare/index.html",
+    "static/css/2.58dcbf32.chunk.css.map": "/sketshare/static/css/2.58dcbf32.chunk.css.map",
+    "static/css/main.1b2f87da.chunk.css.map": "/sketshare/static/css/main.1b2f87da.chunk.css.map",
+    "static/js/2.7da1398f.chunk.js.LICENSE.txt": "/sketshare/static/js/2.7da1398f.chunk.js.LICENSE.txt",
+    "static/media/Apple-iPad-Pro-2019-Mockup@2x.722c8b80.png": "/sketshare/static/media/Apple-iPad-Pro-2019-Mockup@2x.722c8b80.png",
+    "static/media/Group 1068.f318377b.svg": "/sketshare/static/media/Group 1068.f318377b.svg",
+    "static/media/Group 781.353759b2.svg": "/sketshare/static/media/Group 781.353759b2.svg",
+    "static/media/Group 782.bc1f723d.svg": "/sketshare/static/media/Group 782.bc1f723d.svg",
+    "static/media/Group 783.181a6d97.svg": "/sketshare/static/media/Group 783.181a6d97.svg",
+    "static/media/Iphone-Mockup@2x.dddf993d.png": "/sketshare/static/media/Iphone-Mockup@2x.dddf993d.png",
+    "static/media/blue.1ef21872.png": "/sketshare/static/media/blue.1ef21872.png",
+    "static/media/facebook.27dc04d9.svg": "/sketshare/static/media/facebook.27dc04d9.svg",
+    "static/media/insta.f5d0d81e.svg": "/sketshare/static/media/insta.f5d0d81e.svg",
+    "static/media/linkedin.797f002c.svg": "/sketshare/static/media/linkedin.797f002c.svg",
+    "static/media/ok.ec798591.svg": "/sketshare/static/media/ok.ec798591.svg",
+    "static/media/path4.b92124e4.svg": "/sketshare/static/media/path4.b92124e4.svg",
+    "static/media/playstore.156adf87.svg": "/sketshare/static/media/playstore.156adf87.svg",
+    "static/media/youtube.199c2f2d.svg": "/sketshare/static/media/youtube.199c2f2d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7d1d828b.js",
+    "static/css/2.58dcbf32.chunk.css",
+    "static/js/2.7da1398f.chunk.js",
+    "static/css/main.1b2f87da.chunk.css",
+    "static/js/main.941df226.chunk.js"
+  ]
+}
