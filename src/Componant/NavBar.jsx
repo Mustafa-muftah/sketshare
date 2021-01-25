@@ -1,9 +1,16 @@
 import React, { Component } from "react";
-import Logo from "../Group 764.png";
+import Logo from "../Assets/Pics/Logo.png";
 import "./NavBar.css";
 import { Link, NavLink } from "react-router-dom";
+import Button from "./Button";
+
 class NavBar extends Component {
-  state = {};
+  state = {
+    Button: {
+      id: 1,
+      text: ` Start For Free `,
+    },
+  };
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light">
@@ -66,9 +73,7 @@ class NavBar extends Component {
               </a>
             </li>
 
-            <button className="btn" type="submit">
-              <strong>Start for free</strong>
-            </button>
+            <Button key={this.state.Button.id} button={this.state.Button} />
           </ul>
         </div>
       </nav>

@@ -1,23 +1,23 @@
 import React, { Component } from "react";
 import NavBar from "./Componant/NavBar";
 import { Route, Switch, Redirect } from "react-router-dom";
-import ContentOne from "./Componant/ContentOne";
-import ContentTwo from "./Componant/ContentTwo";
-import ContentThree from "./Componant/ContentThree";
-import ContentFour from "./Componant/ContentFour";
-import ContentFive from "./Componant/ContentFive";
+import Brainstorm from "./Componant/Brainstorm";
+import EffectiveSection from "./Componant/EffectiveSection";
+import BlueBackground from "./Componant/BlueBackground";
+import Sketshare from "./Componant/Sketshare";
 import Footer from "./Componant/Footer";
+import ThreeFigures from "./Componant/ThreeFigures";
 class App extends Component {
   state = {};
   render() {
     return (
       <React.Fragment>
         <NavBar />
-        <ContentOne />
-        <ContentTwo />
-        <ContentThree />
-        <ContentFour />
-        <ContentFive />
+        <Brainstorm />
+        <ThreeFigures />
+        <EffectiveSection />
+        <BlueBackground />
+        <Sketshare />
         <Footer />
       </React.Fragment>
     );

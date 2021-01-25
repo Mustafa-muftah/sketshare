@@ -1,8 +1,15 @@
 import React, { Component } from "react";
-import "./ContentThree.css";
+import "./EffectiveSection.css";
+import FatherOfFiveButtons from "./FatherOfFiveButtons";
+import Button from "./Button";
 
-class ContentThree extends Component {
-  state = {};
+class EffectiveSection extends Component {
+  state = {
+    Button: {
+      id: 1,
+      text: ` Discover More `,
+    },
+  };
   render() {
     return (
       <React.Fragment>
@@ -20,18 +27,10 @@ class ContentThree extends Component {
               <h3>Missing Content</h3>
             </div>
             <div className="col">
-              <ul>
-                <li className="active">Audio Communication</li>
-                <li>Session recording</li>
-                <li>Share board with others</li>
-                <li>Variant tool kit</li>
-                <li className="active">
-                  Different board grid styles and color
-                </li>
-              </ul>
+              <FatherOfFiveButtons />
               <p>and much more</p>
               <div className="center-block text-center m-4">
-                <button className="btn "> Discover More</button>
+                <Button key={this.state.Button.id} button={this.state.Button} />
               </div>
             </div>
           </div>
@@ -41,4 +40,4 @@ class ContentThree extends Component {
   }
 }
 
-export default ContentThree;
+export default EffectiveSection;

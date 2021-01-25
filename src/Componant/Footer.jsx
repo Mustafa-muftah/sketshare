@@ -1,25 +1,26 @@
 import React, { Component } from "react";
 import "./Footer.css";
-import PicOne from "../Apple-iPad-Pro-2019-Mockup@2x.png";
-import PicTwo from "../Iphone-Mockup@2x.png";
-import PicThree from "../Google-Play.png";
-import PicFour from "../NoPath - Copy (20).png";
-import facebook from "../facebook.svg";
-import linkedin from "../linkedin.svg";
-import youtube from "../youtube.svg";
-import insta from "../insta.svg";
-import playstore from "../playstore.svg";
-import apple from "../path4.svg";
+import PicOne from "../Assets/Pics/ipad.png";
+import PicTwo from "../Assets/Pics/iphone.png";
+import PicThree from "../Assets/Pics/Google-Play.png";
+import PicFour from "../Assets/Pics/AppStore.png";
+import facebook from "../Assets/Pics/facebook.svg";
+import linkedin from "../Assets/Pics/linkedin.svg";
+import youtube from "../Assets/Pics/youtube.svg";
+import insta from "../Assets/Pics/insta.svg";
+import playstore from "../Assets/Pics/playstore.svg";
+import apple from "../Assets/Pics/Apple.svg";
+import HeaderCenter from "./HeaderCenter";
 
 class Footer extends Component {
-  state = {};
+  state = {
+    Header: { text: " Synchronized, Portable, and on all Devices" },
+  };
   render() {
     return (
       <div className="footer">
         <div className="head">
-          <h3>
-            Synchronized, Portable, and <br></br>on all Devices
-          </h3>
+          <HeaderCenter header={this.state.Header} />
           <div className="container">
             <div className="row">
               <div className="col">

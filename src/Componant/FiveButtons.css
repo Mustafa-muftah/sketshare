@@ -1,0 +1,13 @@
+.button {
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  background-color: #f2f2f299;
+  min-width: 80%;
+  padding: 15px;
+  border-left: 2px solid black;
+}
+.button:hover {
+  background-color: white;
+  border-left: 2px solid #0bdcf3;
+}

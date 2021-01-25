@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import "./ContentFour.css";
-import img from "../blue.png";
+import "./BlueBackground.css";
+import img from "../Assets/Pics/blueBackground.png";
 
-class ContentFour extends Component {
+class BlueBackground extends Component {
   state = {};
   render() {
     return (
@@ -26,4 +26,4 @@ class ContentFour extends Component {
   }
 }
 
-export default ContentFour;
+export default BlueBackground;
