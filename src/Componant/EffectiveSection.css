@@ -35,3 +35,20 @@
   margin-top: 20px;
   color: #3a3a3a;
 }
+
+.content-three .col a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #3a3a3a;
+  font-weight: bold;
+  border: none;
+  background-color: #f2f2f299;
+  min-width: 80%;
+  padding: 15px;
+  border-left: 2px solid black;
+  display: block;
+}
+.content-three .col a:hover {
+  background-color: white;
+  border-left: 2px solid #0bdcf3;
+}

@@ -5,13 +5,9 @@ import { Link, NavLink } from "react-router-dom";
 import Button from "./Button";
 
 class NavBar extends Component {
-  state = {
-    Button: {
-      id: 1,
-      text: ` Start For Free `,
-    },
-  };
+  state = {};
   render() {
+    const text = ` Start For Free `;
     return (
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
@@ -73,7 +69,7 @@ class NavBar extends Component {
               </a>
             </li>
 
-            <Button key={this.state.Button.id} button={this.state.Button} />
+            <Button button={text} />
           </ul>
         </div>
       </nav>

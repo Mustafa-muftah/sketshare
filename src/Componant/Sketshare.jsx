@@ -4,13 +4,9 @@ import FatherTakeMark from "./FatherTakeMark";
 import Button from "./Button";
 
 class Sketshare extends Component {
-  state = {
-    Button: {
-      id: 1,
-      text: ` Create Your First Board `,
-    },
-  };
+  state = {};
   render() {
+    const text = ` Create Your First Board `;
     return (
       <div className="contentFive">
         <div className="row">
@@ -29,7 +25,7 @@ class Sketshare extends Component {
               And everyone with an idea worth sharing
             </p>
             <div className="center-block text-center ">
-              <Button key={this.state.Button.id} button={this.state.Button} />
+              <Button button={text} />
             </div>
           </div>
           <div className="col">

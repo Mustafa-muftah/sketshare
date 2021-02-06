@@ -6,7 +6,7 @@ class Button extends Component {
   render() {
     return (
       <React.Fragment>
-        <button className="btn text-center">{this.props.button.text}</button>
+        <button className="btn text-center">{this.props.button}</button>
       </React.Fragment>
     );
   }

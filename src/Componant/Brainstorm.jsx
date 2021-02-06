@@ -17,12 +17,9 @@ class Brainstorm extends Component {
       through voice , video , shapes , color and grid on one
       board `,
     },
-    Button: {
-      id: 1,
-      text: ` Create board , Free `,
-    },
   };
   render() {
+    const text = ` Create board , Free `;
     return (
       <React.Fragment>
         <div className="contentOne">
@@ -32,7 +29,7 @@ class Brainstorm extends Component {
             Paragraph={this.state.Paragraph}
           />
           <div className="center-block text-center m-4">
-            <Button key={this.state.Button.id} button={this.state.Button} />
+            <Button button={text} />
           </div>
           <img className=" mx-5" src={Pic} alt="" />
           <h3>Missing Content</h3>
